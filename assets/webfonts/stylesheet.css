@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../webfonts/-Bold.eot');
+    src: url('../webfonts/-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/-Bold.woff2') format('woff2'),
+        url('../webfonts/-Bold.woff') format('woff'),
+        url('../webfonts/-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../webfonts/-ExtraBold.eot');
+    src: url('../webfonts/-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/-ExtraBold.woff2') format('woff2'),
+        url('../webfonts/-ExtraBold.woff') format('woff'),
+        url('../webfonts/-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../webfonts/-Black.eot');
+    src: url('../webfonts/-Black.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/-Black.woff2') format('woff2'),
+        url('../webfonts/-Black.woff') format('woff'),
+        url('../webfonts/-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../webfonts/-Medium.eot');
+    src: url('../webfonts/-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/-Medium.woff2') format('woff2'),
+        url('../webfonts/-Medium.woff') format('woff'),
+        url('../webfonts/-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../webfonts/-Light.eot');
+    src: url('../webfonts/-Light.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/-Light.woff2') format('woff2'),
+        url('../webfonts/-Light.woff') format('woff'),
+        url('../webfonts/-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../webfonts/-ExtraLight.eot');
+    src: url('../webfonts/-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/-ExtraLight.woff2') format('woff2'),
+        url('../webfonts/-ExtraLight.woff') format('woff'),
+        url('../webfonts/-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../webfonts/-Regular.eot');
+    src: url('../webfonts/-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/-Regular.woff2') format('woff2'),
+        url('../webfonts/-Regular.woff') format('woff'),
+        url('../webfonts/-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../webfonts/-SemiBold.eot');
+    src: url('../webfonts/-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/-SemiBold.woff2') format('woff2'),
+        url('../webfonts/-SemiBold.woff') format('woff'),
+        url('../webfonts/-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../webfonts/-Thin.eot');
+    src: url('../webfonts/-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/-Thin.woff2') format('woff2'),
+        url('../webfonts/-Thin.woff') format('woff'),
+        url('../webfonts/-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
