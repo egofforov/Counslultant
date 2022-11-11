@@ -21,12 +21,12 @@
       <nav class="site-navigation">
         <img src="assets/css/imgsvg/Brands.svg" alt="logo-brand" class="logo-brand">
         <ul class="site-navigation__items">
-          <li class="site-navigation__item"><a href="#" class="site-navigation__link">Home</a></li>
-          <li class="site-navigation__item"><a href="#" class="site-navigation__link">Services</a></li>
-          <li class="site-navigation__item"><a href="#" class="site-navigation__link">Pricing</a></li>
-          <li class="site-navigation__item"><a href="#" class="site-navigation__link">Work Flow</a></li>
-          <li class="site-navigation__item"><a href="#" class="site-navigation__link">Resources</a></li>
-          <li class="site-navigation__item"><a href="#" class="site-navigation__link"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+          <li class="site-navigation__item"><a href="#" class="site-navigation__link active">Home</a></li>
+          <li class="site-navigation__item"><a href="#business-section" class="site-navigation__link">Services</a></li>
+          <li class="site-navigation__item"><a href="#plans-section" class="site-navigation__link">Pricing</a></li>
+          <li class="site-navigation__item"><a href="#form-section" class="site-navigation__link">Work Flow</a></li>
+          <li class="site-navigation__item"><a href="#creative-section" class="site-navigation__link">Resources</a></li>
+          <li class="site-navigation__item"><a href="#customer-section" class="site-navigation__link"><i class="fa-solid fa-magnifying-glass"></i></a></li>
         </ul>
         <div class="btn-box">
           <button class="btn" type="button">Log In</button>
@@ -40,6 +40,9 @@
   <main>
     <!-- Investing section -->
     <section id="investing-section" class="investing-section">
+      <video autoplay loop muted plays-inline class="back-video">
+        <source src="image/backvideo.mp4" type="video/mp4">
+      </video>
       <div class="container">
         <div class="grid-container">
           <div class="investing-section__info">
@@ -71,7 +74,7 @@
                 </p>
               </div>
             </div>
-            <button class="btn" type="button">Work With Us</button>
+            <button class="btn glow-on-hover" type="button">Work With Us</button>
           </div>
           <div class="investing-section__img">
             <div class="investing-section__img-box"><img src="image/HeroSectionGroup.png" alt="Hero image" class="investing-section__image"></div>
@@ -103,8 +106,7 @@
                 aliquip ex ea commodo consequat placeat facere possimus, omnis voluptas <br>
                 assumenda est.
               </p>
-              <button class="btn" type="button">Learn More</button>
-            </div>
+              <button class="btn glow-on-hover" type="button">Learn More</button>
           </div>
         </div>
       </div>
@@ -198,8 +200,8 @@
             </h1>
           </div>
           <div class="specific-section__media">
-            <video class="specific-section__video" controls>
-              <source src="image/my-video.mov" type="video/mp4">
+            <video class="specific-section__video" autoplay loop muted plays-inline>
+              <source src="image/backvideo1.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -472,8 +474,27 @@
           </div>
           <div class="plans-article__cards">
             <article class="plans-article__card">
-              <div class="card-img">
-                <img src="image/feedback.svg" alt="feedback" class="card-image">
+                <div class="cube-box">
+                  <div class="cube">
+                    <div class="face front">
+                      <div class="card-img"><img src="image/1.png" alt="feedback" class="card-image"></div>
+                    </div>
+                    <div class="face back">
+                      <div class="card-img"><img src="image/1.png" alt="feedback" class="card-image"></div>
+                    </div>
+                    <div class="face right">
+                      <div class="card-img"><img src="image/1.png" alt="feedback" class="card-image"></div>
+                    </div>
+                    <div class="face left">
+                      <div class="card-img"><img src="image/1.png" alt="feedback" class="card-image"></div>
+                    </div>
+                    <div class="face top">
+                      <div class="card-img"><img src="image/1.png" alt="feedback" class="card-image"></div>
+                    </div>
+                    <div class="face bottom">
+                      <div class="card-img"><img src="image/1.png" alt="feedback" class="card-image"></div>
+                    </div>
+                  </div>
               </div>
               <div class="card-info">
                 <h2 class="title">Free</h2>
@@ -489,9 +510,28 @@
               </div>
             </article>
             <article class="plans-article__card">
-              <div class="card-img">
-                <img src="image/feeling.svg" alt="feeling" class="card-image">
-              </div>
+              <div class="cube-box">
+                <div class="cube">
+                  <div class="face front">
+                    <div class="card-img"><img src="image/2.png" alt="feedback" class="card-image"></div>
+                  </div>
+                  <div class="face back">
+                    <div class="card-img"><img src="image/2.png" alt="feedback" class="card-image"></div>
+                  </div>
+                  <div class="face right">
+                    <div class="card-img"><img src="image/2.png" alt="feedback" class="card-image"></div>
+                  </div>
+                  <div class="face left">
+                    <div class="card-img"><img src="image/2.png" alt="feedback" class="card-image"></div>
+                  </div>
+                  <div class="face top">
+                    <div class="card-img"><img src="image/2.png" alt="feedback" class="card-image"></div>
+                  </div>
+                  <div class="face bottom">
+                    <div class="card-img"><img src="image/2.png" alt="feedback" class="card-image"></div>
+                  </div>
+                </div>
+            </div>
               <div class="card-info">
                 <h2 class="title">Basic</h2>
                 <p class="subtitle">
@@ -507,8 +547,27 @@
               </div>
             </article>
             <article class="plans-article__card">
-              <div class="card-img">
-                <img src="image/undraw.svg" alt="feedback" class="card-image">
+                <div class="cube-box">
+                  <div class="cube">
+                    <div class="face front">
+                      <div class="card-img"><img src="image/3.png" alt="feedback" class="card-image"></div>
+                    </div>
+                    <div class="face back">
+                      <div class="card-img"><img src="image/3.png" alt="feedback" class="card-image"></div>
+                    </div>
+                    <div class="face right">
+                      <div class="card-img"><img src="image/3.png" alt="feedback" class="card-image"></div>
+                    </div>
+                    <div class="face left">
+                      <div class="card-img"><img src="image/3.png" alt="feedback" class="card-image"></div>
+                    </div>
+                    <div class="face top">
+                      <div class="card-img"><img src="image/3.png" alt="feedback" class="card-image"></div>
+                    </div>
+                    <div class="face bottom">
+                      <div class="card-img"><img src="image/3.png" alt="feedback" class="card-image"></div>
+                    </div>
+                  </div>
               </div>
               <div class="card-info">
                 <h2 class="title">Pro</h2>
@@ -526,9 +585,28 @@
               </div>
             </article>
             <article class="plans-article__card">
-              <div class="card-img">
-                <img src="image/freelancer.svg" alt="feedback" class="card-image">
-              </div>
+              <div class="cube-box">
+                <div class="cube">
+                  <div class="face front">
+                    <div class="card-img"><img src="image/4.png" alt="feedback" class="card-image"></div>
+                  </div>
+                  <div class="face back">
+                    <div class="card-img"><img src="image/4.png" alt="feedback" class="card-image"></div>
+                  </div>
+                  <div class="face right">
+                    <div class="card-img"><img src="image/4.png" alt="feedback" class="card-image"></div>
+                  </div>
+                  <div class="face left">
+                    <div class="card-img"><img src="image/4.png" alt="feedback" class="card-image"></div>
+                  </div>
+                  <div class="face top">
+                    <div class="card-img"><img src="image/4.png" alt="feedback" class="card-image"></div>
+                  </div>
+                  <div class="face bottom">
+                    <div class="card-img"><img src="image/4.png" alt="feedback" class="card-image"></div>
+                  </div>
+                </div>
+            </div>
               <div class="card-info">
                 <h2 class="title">Premium</h2>
                 <p class="subtitle">
